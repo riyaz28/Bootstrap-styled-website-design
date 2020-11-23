@@ -1,79 +1,143 @@
-body
-{
-/*   global font */
-    font-family:'Montserrat';
-
+body {
+  /*   global font */
+  font-family: 'Montserrat';
 }
-#title
-{
+
+#title {
   background-color: #ff4c68;
-  color:#fff;
+  color: #fff;
 }
 
-.container-fluid
-{
-  padding:5% 15%;
+.container-fluid {
+  padding: 5% 15% 7%;
 }
-h1
-{
-  font-family:'Montserrat-black',sans-serif;
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
+}
 
-}
 /* Navigation bar */
-.navbar
-{
+.navbar {
   padding-bottom: 4.5rem;
-  padding-left:0;
-  padding-right:0;
+  padding-left: 0;
+  padding-right: 0;
 }
-.nav-item
-{
-  padding-left:18px;
-  padding-right:18px;
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
 }
-.navbar-brand
-{
-  font-family:'Ubuntu';
-  font-size:2.5rem;
-  font-weight:bold;
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-.nav-link
-{
+
+.nav-link {
   font-family: "Montserrat";
   font-size: 1.2rem;
 }
+
 /* Download button */
-.Download-button
-{
-margin:5% 3% 5% 0;
+.Download-button {
+  margin: 5% 3% 5% 0;
 }
+
 /* Heading dog image */
-.title-image
-{
-  width:60%;
+.title-image {
+  width: 60%;
   transform: rotate(25deg);
+  position:absolute;
+  left:15%;
 }
-h3
-{
-  font-family:'Montserrat';
+
+h3 {
+  font-family: 'Montserrat';
   font-weight: bold;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   text-align: center;
 }
-.pat
-{
-  color:#8f8f8f;
+
+.pat {
+  color: #8f8f8f;
 }
-.fas
-{
+
+.fas {
   color: #ef8172;
   font-size: 3rem;
-  margin:120px auto 30px auto;
-  padding-left:9.2rem;
+  margin-bottom:30px;
+  /* margin:120px auto 30px auto;
+  padding-left:9.2rem; */
 }
-.fas:hover
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+  /*topbottom  leftright */
+   background-color:#fff;           /* we are using it for z-indexing*/
+   position:relative;
+   z-index:1;
+}
+
+.featurebox {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials */
+#testimonials
 {
-  color:#ff4c68;
+  text-align:center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.carousel-item
+/* {     to make anchor tag appear wider(arrow mark) */
+{
+  padding:7% 15%;
+}
+
+h2
+{
+  font-family:'Montserrat';
+  font-weight:bold;
+  font-size:3rem;
+  line-height:1.5;
+}
+/* Make dog image smaller and circular */
+.testimonial-image
+{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/* Press section */
+#press
+{
+  background-color: #ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+.press-logo
+{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/* Pricing section */
+#pricing
+{
+ padding:100px;
+ text-align:center;
+}
+.pricing-column
+{
+  padding:3% 2%;
 }
