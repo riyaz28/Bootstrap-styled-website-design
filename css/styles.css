@@ -130,6 +130,17 @@ h2
   border-radius: 100%;
   margin:20px;
 }
+/* Colored and white section (general class) and also individual color to testimonial carosel
+because #testimonial (id) has more priority than .colored-section(class)*/
+.colored-section
+{
+  background-color: #ff4c68;
+  color:white;
+}
+.white-section
+{
+  background-color: #fff;
+}
 
 /* Press section */
 #press
@@ -160,8 +171,6 @@ h2
   font-family:'Montserrat';
   font-weight:bolder;
   text-align:center;
-  background-color: #ff4c68;
-  color:white;
   line-height: 1.5;
   font-size: 3.5rem;
   padding-top:8%;
